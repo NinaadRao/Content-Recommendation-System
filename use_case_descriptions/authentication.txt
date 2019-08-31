@@ -1,0 +1,42 @@
+Name: Sign Up
+Summary: Registers a user to the website. Adds their information to the database.
+         The user can login to the website as a registered user with those credentials.
+Actor: Anonymous User.
+Precondition: The user shouldn't be logged in already. 
+Description: The user clicks the sign up button.
+             He enters his username, email and password.
+             He confirms that his details are correct.
+             If all the details are valid, a link is sent to his email.
+             After clicking the link, a success screen is shown.
+             The user can now sign in with these credentials.
+Exception: The details are invalid, e.g. the username/email is already in use, or the password doesn't meet the criteria.
+           A message is shown telling what is invalid.
+Postcondition: In case of invalid details, the user is still in the sign up screen
+               In case of success, the user is redirected to the home screen. The details are entered into the database.
+
+        
+Name: Login
+Summary: A user who has entered valid details is logged on to the website.
+Actor: Registered User.
+Precondition: The user shouldn't be logged in already. 
+Description: The user clicks the login button.
+             He enters his email and password.
+             If the details are correct, he is logged onto the website.
+Exception: Incorrect email/password. An error message is shown.
+Postcondition: In the case of the exception, the user is in the same page.
+               In case of success, the user is logged in.
+
+Name: Log out
+Summary: A user who is logged is is logged out.
+Actor: Registered User.
+Precondition: The user must be logged in.
+Description: The user clicks the sign out button.
+             The user is logged out.
+Exception: None.
+Postcondition: The user is signed out.
+ 
+
+
+
+              
+
