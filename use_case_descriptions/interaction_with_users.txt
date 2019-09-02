@@ -217,5 +217,3 @@ Postcondition: In the main case, the group and everything related to it are dele
                Another group can be made with the deleted groups name. All the posts are deleted.  The database is updated.
                If he cancels, he is redirected to the settings page.
                If he enters the wrong name, an error message is shown and he remains in the same window.
-
-               

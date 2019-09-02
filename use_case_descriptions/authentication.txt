@@ -48,9 +48,3 @@ Main Path: The user clicks the sign out button.
              The user is logged out.
 Exception: None.
 Postcondition: The user is signed out.
- 
-
-
-
-              
-
