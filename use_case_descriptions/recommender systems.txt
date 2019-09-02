@@ -78,10 +78,10 @@ Post condition : if the user is not subscribed user and clicks on this option, t
 Name : Subscription
 Summary : helps user renew his subscription
 Actor : subscribed user
-Pre conditon : the user needs to be a subscribed user 
+Pre conditon : the user needs to be a subscribed user with less than 1 month left in subscription time.
 Description : when the user clicks the subscription link, he can renew his subscription to the system and continue to enjoy the desired benefits.
-Exception : If his subscription is still active
-Post condition : In such cases and error page or an alert page can be created displaying the appropriate message.
+Exception : None.
+Post condition : A message is shown telling that he has succesfully renewed subscription.
 
 
 
