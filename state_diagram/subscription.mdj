@@ -3923,6 +3923,19 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAFti3MnLN8hrhM="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFtjKiep6B0X9s=",
+							"_parent": {
+								"$ref": "AAAAAAFtixD9LNGf0jg="
+							},
+							"font": "Arial;25;0",
+							"left": 632,
+							"top": 40,
+							"width": 336,
+							"height": 48,
+							"text": "Subscription State Diagram"
 						}
 					]
 				}
