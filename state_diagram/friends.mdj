@@ -390,9 +390,9 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 702,
+									"left": 702.266845703125,
 									"top": 243.5,
-									"width": 28,
+									"width": 27.46630859375,
 									"height": 13,
 									"alpha": 2.356194490192345,
 									"distance": 20,
@@ -3551,19 +3551,6 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAFtjIEBlxzLVbs="
 							}
-						},
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAFtjKtBzUUWNWI=",
-							"_parent": {
-								"$ref": "AAAAAAFtjDcgPxfP/vQ="
-							},
-							"font": "Arial;25;0",
-							"left": 1096,
-							"top": 48,
-							"width": 288,
-							"height": 40,
-							"text": "Friend Function"
 						}
 					]
 				}
