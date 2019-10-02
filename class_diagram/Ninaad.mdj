@@ -6685,13 +6685,30 @@
 											"height": 13,
 											"text": "-password: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFtitB/3ToTnqI=",
+											"_parent": {
+												"$ref": "AAAAAAFtVKSEgcedyE4="
+											},
+											"model": {
+												"$ref": "AAAAAAFtitB/uDnteCI="
+											},
+											"font": "Arial;13;0",
+											"left": 181,
+											"top": 68,
+											"width": 234.45703125,
+											"height": 13,
+											"text": "+Port1",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 176,
 									"top": 33,
 									"width": 244.45703125,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -6714,7 +6731,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 181,
-											"top": 76,
+											"top": 91,
 											"width": 234.45703125,
 											"height": 13,
 											"text": "+getUsername(): String",
@@ -6731,7 +6748,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 181,
-											"top": 91,
+											"top": 106,
 											"width": 234.45703125,
 											"height": 13,
 											"text": "+setUsername(value: String)",
@@ -6748,7 +6765,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 181,
-											"top": 106,
+											"top": 121,
 											"width": 234.45703125,
 											"height": 13,
 											"text": "+getPassword(): String",
@@ -6765,7 +6782,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 181,
-											"top": 121,
+											"top": 136,
 											"width": 234.45703125,
 											"height": 13,
 											"text": "+setPassword(value: String)",
@@ -6782,7 +6799,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 181,
-											"top": 136,
+											"top": 151,
 											"width": 234.45703125,
 											"height": 13,
 											"text": "+viewReports(): String[*]",
@@ -6799,7 +6816,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 181,
-											"top": 151,
+											"top": 166,
 											"width": 234.45703125,
 											"height": 13,
 											"text": "+banUser(value: User, time: String): void",
@@ -6808,7 +6825,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 176,
-									"top": 71,
+									"top": 86,
 									"width": 244.45703125,
 									"height": 98
 								},
@@ -9390,9 +9407,9 @@
 										"$ref": "AAAAAAFtd2B8UCtTlwA="
 									},
 									"font": "Arial;13;0",
-									"left": 613,
+									"left": 612,
 									"top": 786,
-									"width": 19.5126953125,
+									"width": 20,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -9452,9 +9469,9 @@
 										"$ref": "AAAAAAFtd2B8UCtU0J4="
 									},
 									"font": "Arial;13;0",
-									"left": 373,
+									"left": 372,
 									"top": 1112,
-									"width": 19.5126953125,
+									"width": 20,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -12037,6 +12054,35 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Admin",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFtitGPt0Au1ZI=",
+							"_parent": {
+								"$ref": "AAAAAAFtVKSEfceVl2g="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtitGPt0AvlAQ=",
+								"_parent": {
+									"$ref": "AAAAAAFtitGPt0Au1ZI="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtVKSEfceVl2g="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtitGPuEAwTu4=",
+								"_parent": {
+									"$ref": "AAAAAAFtitGPt0Au1ZI="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtitGO5z8kd7A="
+								}
+							}
+						}
+					],
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -12057,6 +12103,15 @@
 							"name": "password",
 							"visibility": "private",
 							"type": "String"
+						},
+						{
+							"_type": "UMLPort",
+							"_id": "AAAAAAFtitB/uDnteCI=",
+							"_parent": {
+								"$ref": "AAAAAAFtVKSEfceVl2g="
+							},
+							"name": "Port1",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -12485,6 +12540,14 @@
 							"name": "share"
 						}
 					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtitGO5z8kd7A=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class3"
 				}
 			]
 		}
